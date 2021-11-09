@@ -1,0 +1,146 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        color: black;
+        font-family: Nunito;
+    }
+    
+    header {
+        position: fixed;
+        top: 0px;
+        height: 10%;
+        display: flex;
+        width: 100%;
+    }
+    
+    #title {
+        margin: 5%;
+        text-align: center;
+    }
+    
+    h1 {
+        padding: 1%;
+    }
+    
+    #main {
+        text-align: center;
+        width: 100%;
+    }
+    
+    #img-div {
+        width: 20%;
+    }
+    
+    #img-div img {
+        height: 100%;
+        max-width: 100%;
+        border-radius: 50%;
+    }
+    
+    #nav-div {
+        width: 100%;
+    }
+    
+    #nav-bar ul {
+        list-style-type: none;
+        display: flex;
+        float: right;
+        margin-right: 7%;
+        margin-top: 2%;
+    }
+    
+    #nav-bar ul a {
+        margin: 3%;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    #nav-bar a:hover {
+        color: blue;
+    }
+    
+    #form {
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #form input {
+        margin: 1%;
+        width: 50%;
+    }
+    
+    #video-div {
+        height: 60vh;
+    }
+    
+    iframe {
+        width: 90%;
+        height: inherit;
+        max-width: 100%;
+        margin-bottom: 2%;
+    }
+    
+    #features {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    #price {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    #price_sub {
+        display: flex;
+    }
+    
+    .price {
+        box-shadow: 3px 5px 4px 0px;
+        margin: 3%;
+        border-radius: 5%;
+        padding: 20px;
+    }
+    
+    #features img {
+        width: 80%;
+    }
+    
+    #configurations {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    @media(max-width: 600px) {
+        header {
+            background-color: rgb(200, 200, 200, 1);
+        }
+        #title {
+            margin-top: 20%;
+        }
+        #img-div img {
+            border-radius: 50%;
+        }
+        #nav-div {
+            display: flex;
+        }
+        #nav-bar {
+            margin: 0 auto;
+        }
+        #price_sub {
+            display: flex;
+            flex-direction: column;
+        }
+    }
